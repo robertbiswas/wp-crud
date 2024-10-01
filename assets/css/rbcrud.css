@@ -1,0 +1,22 @@
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+.show-active{
+	display: block;
+	visibility: visible;
+}
+.from-container,
+.crud-list-table{
+	background-color: #fff; 
+	padding: 16px;
+	border-radius: 8px;
+}
+.crud-list-table{
+	margin-top: 32px;
+}
+.info, .button-list{
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
